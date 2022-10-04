@@ -263,7 +263,7 @@ body {
   #hero {
     width: 100%;
     height: 100vh;
-    background: url("../img/hero-bg.jpg") top right no-repeat;
+    background: url("https://www.creatopy.com/blog/wp-content/uploads/2016/06/images-for-banner-ads.png") top right no-repeat;
     background-size: cover;
     position: relative;
   }
@@ -388,6 +388,9 @@ body {
   /*--------------------------------------------------------------
   # About
   --------------------------------------------------------------*/
+  .about{
+    background-color: #f1f5f8;
+  }
   .about .content h3 {
     font-weight: 700;
     font-size: 26px;
@@ -465,6 +468,10 @@ body {
   /*--------------------------------------------------------------
   # Akills
   --------------------------------------------------------------*/
+  .skills{
+    background-color: #f1f5f8;
+  }
+
   .skills .progress {
     height: 60px;
     display: block;
@@ -501,6 +508,9 @@ body {
   /*--------------------------------------------------------------
   # Resume
   --------------------------------------------------------------*/
+  .resume{
+    background-color: #ffff;
+  }
   .resume .resume-title {
     font-size: 26px;
     font-weight: 700;
@@ -555,7 +565,7 @@ body {
     border-radius: 50px;
     left: -9px;
     top: 0;
-    background: #fff;
+    background: floralwhite;
     border: 2px solid #0563bb;
   }
   
@@ -783,11 +793,16 @@ body {
   /*--------------------------------------------------------------
   # Services
   --------------------------------------------------------------*/
+  .services{
+    background-color: #f1f5f8;
+  }
+
+
   .services .icon-box {
     text-align: center;
     padding: 70px 20px 80px 20px;
     transition: all ease-in-out 0.3s;
-    background: #fff;
+    background: white;
     box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.05);
   }
   
@@ -1136,7 +1151,7 @@ body {
   # Footer
   --------------------------------------------------------------*/
   #footer {
-    background: #f7f8f9;
+    background: #f1f5f8;
     color: #45505b;
     font-size: 14px;
     text-align: center;
